@@ -50,7 +50,7 @@ To do the comparison, include the following jQuery.
 
 `Note : In this web application we implements only server based form validations.`
 
-## Requirments for this Spring 5 MVC Form Validation web Application :
+## Requirements for this Spring 5 MVC Form Validation web Application :
   * Create Dynamic Web Application that Supports Maven.
   * Add Jar files or dependencies to Pom.xml file
      *  spring-core-5.1.8.RELEASE.jar
