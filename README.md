@@ -67,10 +67,19 @@ To do the comparison, include the following jQuery.
       `To configure all required dependent beans.`
       * View pages
       `To show ui for users`
+  * Css to set the Layouts of view pages.
   * For Web Application
       * wex.xml File
       `To configure Front Controller as a DispatcherServlet class and to configure Spring configuration File.`
   
   * Tomcat-9.0 Web Server to Run the this Web  Application.
       
-      
+  # Some Other Project Using Spring MVC Based Architecture 
+  ### Localization Based Spring MVC Web Application
+  https://github.com/Er-Adarsh-Chauhan/LocaleBasedSpringWebApplication
+  
+  ### Performing CRUD Operations in Database Based on Spring MVC Web Application
+  https://github.com/Er-Adarsh-Chauhan/SpringMVCCRUDSimple
+  
+  ### Exception Handling Based Spring MVC Web Application
+  https://github.com/Er-Adarsh-Chauhan/Springframework-5.1.8-Mvc-Exception
