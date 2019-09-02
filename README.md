@@ -32,10 +32,11 @@ While HTML5 validation is preferred, you can use the JavaScript validation that 
 
 To make sure that the email and confirm email fields are identical, use class="validate-email" in the email field along with id="email" to reference that field. It will look like, <input class="validate-email" id="email" name="email" type="text">
 To do the comparison, include the following jQuery.
-<script>
+`<script>
         WDN.initializePlugin('form_validation', [function($) {
           $.validation.addMethod('validate-confirm-email', 'This field must match the value of the email field.',
           {equalToField:'#email'});
           $('#myform').validation({immediate: true});
           }]); 
      </script>
+`
