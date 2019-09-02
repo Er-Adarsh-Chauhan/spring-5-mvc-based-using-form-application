@@ -84,6 +84,17 @@ To do the comparison, include the following jQuery.
       `To configure Front Controller as a DispatcherServlet class and to configure Spring configuration File.`
   
   * Tomcat-9.0 Web Server to Run the this Web  Application.
+  
+  ### Execution Flow of this Web Application 
+  * whenever user gives the request then form page is shown.
+  * Here (*) represent mandatroy filed.
+  * if user doesn't enter any values to Lastname or its size is zero then it will show an error.
+  * if user doesn't enter any values to Free passes or values other than 'must be less than or equal to 10' then it will show an error.
+  * if user doesn't enter any values to Email or its values is incorrect then it will show an error.
+  * if user doesn't enter any values to Postal Code or its size Must be 5 and it contains both Numeric or Alphanumeric characters if not 
+    then it will show an error.
+  
+  `Note : if Form inputs are filled with correct values then it will show the output. `
       
   # Some Other Project Using Spring MVC Based Architecture 
   ### Localization Based Spring MVC Web Application
